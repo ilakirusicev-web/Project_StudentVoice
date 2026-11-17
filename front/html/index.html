@@ -1,1 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://googleapis.com">
+        <link rel="preconnect" href="https://gstatic.com" crossorigin>
+        <link href="https://googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    </head>
 
+    <body>
+        <header class="header_container">
+            <div class="header">
+                <h1 class="header_title">StudentVoice</h1>
+                <nav>
+                    <ul class="navigation"> 
+                        <li class="navigation_item">Отзывы</li>
+                        <li class="navigation_item">Статистика</li>
+                    </ul>
+                </nav>
+                <img src="images/icons/уведомления.png" class="ping_image">
+                <div class="account_button">
+                    <img src="images/icons/аккаунт.png" class="acc_image">
+                    <p class="acc_text">Выйти</p>
+                </div> 
+            </div>
+        </header>
+
+        <main class="main_container">
+            <div class="main_content">
+                <div class="title_data_container">
+                    <div class="title_subtitle_container">
+                        <p class="main_title">Отзывы студентов</p>
+                        <p class="sub_main_title">Слушайте студентов. Делайте колледж лучше.</p>
+                    </div>
+                    <input type="date" class="date"> 
+                </div>
+                <div class="statistics_container">
+                    <div id="statistic_reviews" class="statistic">
+                        <div class="statistic_stats">
+                            <p class="first_text_statistic_container">Всего отзывов</p>
+                            <p>142</p>
+                            <p>За все время</p>
+                        </div>
+                        <div class="statistic_reviews_icon">
+
+                        </div>
+                    </div>
+                    <div id="statistic_ratings" class="statistic">
+                        <div class="statistic_rating_stats">
+                            <p>Средняя оценка</p>
+                            <p>4.2 ⭐</p>
+                            <p>На основе 142 отзывов</p>
+                        </div>
+                        <div class="statistic_rating_icon">
+
+                        </div>
+                    </div>
+                    <div id="statistic_requests" class="statistic">
+                        <div class="statistic_requests_stats">
+                            <p>Новые заявки</p>
+                            <p>14</p>
+                            <p>Ожидают модерации</p>
+                        </div>
+                        <div class="statistic_requests_icon">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
