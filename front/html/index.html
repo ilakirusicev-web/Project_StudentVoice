@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="../styles/styles.css">
         <link rel="preconnect" href="https://googleapis.com">
         <link rel="preconnect" href="https://gstatic.com" crossorigin>
         <link href="https://googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -14,9 +14,9 @@
         <header class="header_container">
             <div class="header">
                 <h1 class="header_title">StudentVoice</h1>
-                <img src="images/icons/уведомления.png" class="ping_image">
+                <img src="../images/icons/уведомления.png" class="ping_image">
                 <div class="account_button">
-                    <img src="images/icons/аккаунт.png" class="acc_image">
+                    <img src="../images/icons/аккаунт.png" class="acc_image">
                     <p class="acc_text">Выйти</p>
                 </div> 
             </div>
@@ -35,39 +35,39 @@
                     <div id="statistic_reviews" class="statistic">
                         <div class="statistic_stats">
                             <p class="first_text_statistic_container">Всего отзывов</p>
-                            <p class="second_text_statistic_container">142</p>
+                            <p class="second_text_statistic_container">1</p>
                             <p class="third_text_statistic_container">За все время</p>
                         </div>
                         <div class="statistic_reviews_icon">
-                            <img src="images/icons/отзывы.png" width="100%" height="100%">
+                            <img src="../images/icons/отзывы.png" width="100%" height="100%">
                         </div>
                     </div>
                     <div id="statistic_ratings" class="statistic">
                         <div class="statistic_stats">
                             <p class="first_text_statistic_container">Средняя оценка</p>
-                            <p class="second_text_statistic_container">4.2<span class="star">⭐</span></p>
-                            <p class="third_text_statistic_container">На основе 142 отзывов</p>
+                            <p class="second_text_statistic_container">0<span class="star">⭐</span></p>
+                            <p class="third_text_statistic_container">На основе 1 отзыва</p>
                         </div>
                         <div class="statistic_rating_icon">
-                            <img src="images/icons/stats.png" width="100%" height="100%">
+                            <img src="../images/icons/stats.png" width="100%" height="100%">
                         </div>
                     </div>
                     <div id="statistic_requests" class="statistic">
                         <div class="statistic_stats">
                             <p class="first_text_statistic_container">Новые заявки</p>
-                            <p class="second_text_statistic_container">14</p>
+                            <p class="second_text_statistic_container">0</p>
                             <p class="third_text_statistic_container">Ожидают модерации</p>
                         </div>
                         <div class="statistic_requests_icon">
-                            <img src="images/icons/requests.png" width="100%" height="100%">
+                            <img src="../images/icons/requests.png" width="100%" height="100%">
                         </div>
                     </div>
                 </div>
                 <div class="sub_title_container">
                     <p class="sub_title_text">Все отзывы</p>
-                    <div class="all_reviews_container"><p class="all_reviews_text">142</p></div>
+                    <div class="all_reviews_container"><p class="all_reviews_text">3</p></div>
                     <div class="filters_container">
-                        <img src="images/icons/фильтры.png" width="20px" height="20px">
+                        <img src="../images/icons/фильтры.png" width="20px" height="20px">
                         <p class="filters_text">Фильтры</p>
                     </div>
                 </div>
@@ -94,27 +94,107 @@
                     </div>
                     <div class="review_items_container">
                         <div class="item_container">
-                            <p class="review_items">12.10.2026
+                            <p class="review_items">12.10.2026<br>
                                 <span class="review_id">#0001</span>
                             </p>
                         </div>
                         <div class="item_container">
-                            <p class="review_items">Курс</p>
+                            <p class="category" class="review_items">Инфраструктура</p>
                         </div>
                         <div class="item_container">
                             <p class="review_items">В библиотеке не хватает розеток для ноутбуков.
                                 Было бы здорово добавить их в читальном зале.
                             </p>
                         </div>
+                        <div class="rating_container">
+                            <label class="rating_star">☆</label>
+                            <label class="rating_star">☆</label>
+                            <label class="rating_star">☆</label>
+                            <label class="rating_star">☆</label>
+                            <label class="rating_star">☆</label>
+                        </div>
+                        <div id="status_container" class="item_container">
+                            <p class="status" class="review_items">Принято<span class="arrow"><</span></p>
+                        </div> 
+                        <div class="moderation_container">
+                            <img class="moderation" src="../images/icons/скрыть.png">
+                            <img class="moderation" src="../images/icons/удалить.png">
+                        </div>
+                    </div>
+                    <div class="review_items_container">
                         <div class="item_container">
-                            <p class="review_items">Оценка</p>
+                            <p class="review_items">12.10.2026<br>
+                                <span class="review_id">#0001</span>
+                            </p>
                         </div>
                         <div class="item_container">
-                            <p class="review_items">Статус</p>
+                            <p class="category" class="review_items">Инфраструктура</p>
                         </div>
                         <div class="item_container">
-                            <p class="review_items">Модерация</p>
+                            <p class="review_items">В библиотеке не хватает розеток для ноутбуков.
+                                Было бы здорово добавить их в читальном зале.
+                            </p>
                         </div>
+                        <div class="rating_container">
+                            <label class="rating_star">☆</label>
+                            <label class="rating_star">☆</label>
+                            <label class="rating_star">☆</label>
+                            <label class="rating_star">☆</label>
+                            <label class="rating_star">☆</label>
+                        </div>
+                        <div id="status_container" class="item_container">
+                            <p class="status" class="review_items">Принято<span class="arrow"><</span></p>
+                        </div> 
+                        <div class="moderation_container">
+                            <img class="moderation" src="../images/icons/скрыть.png">
+                            <img class="moderation" src="../images/icons/удалить.png">
+                        </div>
+                    </div>
+                    <div class="review_items_container">
+                        <div class="item_container">
+                            <p class="review_items">12.10.2026<br>
+                                <span class="review_id">#0001</span>
+                            </p>
+                        </div>
+                        <div class="item_container">
+                            <p class="category" class="review_items">Инфраструктура</p>
+                        </div>
+                        <div class="item_container">
+                            <p class="review_items">В библиотеке не хватает розеток для ноутбуков.
+                                Было бы здорово добавить их в читальном зале.
+                            </p>
+                        </div>
+                        <div class="rating_container">
+                            <label class="rating_star">☆</label>
+                            <label class="rating_star">☆</label>
+                            <label class="rating_star">☆</label>
+                            <label class="rating_star">☆</label>
+                            <label class="rating_star">☆</label>
+                        </div>
+                        <div id="status_container" class="item_container">
+                            <p class="status" class="review_items">Принято<span class="arrow"><</span></p>
+                        </div> 
+                        <div class="moderation_container">
+                            <img class="moderation" src="../images/icons/скрыть.png">
+                            <img class="moderation" src="../images/icons/удалить.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="page_nav_container">
+                    <div>
+                        <p class="page_text">Показано <span>3</span>-<span>1</span> из <span>3</span> отзывов</p>
+                    </div>
+                    <div class="page_navigation_container">
+                        <img src="../images/icons/назад.png" class="move_page_back">
+                        <nav class="pagination_container">
+                            <ul class="pagination">
+                                <li class="pagination_page">1</li>
+                                <li class="pagination_page">2</li>
+                                <li class="pagination_page">3</li>
+                            </ul>
+                            <textarea maxlength="3" placeholder="..." class="page_number"></textarea>
+                        </nav>
+                        <img src="../images/icons/вперед.png" class="move_page_forward">
                     </div>
                 </div>
             </div>
