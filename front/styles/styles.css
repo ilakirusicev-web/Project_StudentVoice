@@ -462,3 +462,29 @@ body {
     text-align: center;
     align-content: center;
 }
+
+@media (max-width: 480px) {
+    #statistic_requests {
+        display: none;
+    }
+
+    .statistic {
+        width: auto;
+    }
+
+    .sub_main_title {
+        zoom: 0.8; 
+    }
+
+    .page_text {
+        zoom: 0.95;
+    }
+
+    .pagination_container {
+        zoom: 0.75;
+    }
+
+    .header {
+        gap: 25px;
+    }
+}
